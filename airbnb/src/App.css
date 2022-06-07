@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins'
+}
+img{
+  max-width: 100%;
+}
+
+.navbar{
+  padding: 1em 2em ;
+  display: flex;
+  height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1)
+}
+
+.hero-img-container{
+  width: 70%;
+  margin: 2em auto;
+  
+
+  
+}
+
+.hero-content-container{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.hero-title{
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero-para{
+  width: 65%;
+}
+
+.entire-card-container{
+  width:175px;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+ 
+}
+.entire-card-container p {
+  margin: .25em 0;
+  position: relative; 
+  
+}
+
+.star{
+  display: flex;
+  align-items: center;
+}
+
+.star-para{
+  margin-left:.5em
+}
+.katie{
+  border-radius: 10px;
+ 
+}
+
+.red-star{
+  margin-right: .2em;
+  height: 14px;
+}
+
+.sold-out{
+  background: white;
+  width: fit-content;
+  padding:.2em;
+  font-size: .75em;
+  position: fixed;
+  top: 2em;
+  left: 1em;
+  
+}
+
+@media (min-width: 1300px){
+  .hero-img-container{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .hero-content-container{
+    width: 70%;
+   
+    
+  }
+}
+.entire-card-div{
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin: 0 auto ;
+  
+}
